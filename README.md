@@ -3,6 +3,8 @@ all scripts, procedures, commands for limit setting, various fit tests
 
 Please commit what you have first and then we will do some clean-up
 
+0. example datacards and root files from Higgs Coupling (Karim, Gerrit)
+
 1. SOB plot (Joosep)
 
 2. impact plot, the whole procedure and actual commands(Robin)
