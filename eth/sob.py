@@ -36,7 +36,7 @@ def svfg(fn, **kwargs):
 
 if __name__ == "__main__":
 
-    path = "~/tth/datacards/v13/"
+    path = "../example_HIG_16_038/"
 
     dcard_repr = CombineRepresentation()
     hists = dcard_repr.get_representation(path + "mlfitNamesShapes.root")
