@@ -1,0 +1,72 @@
+imax * # number of channels
+jmax * # number of backgrounds
+kmax * # number of nuisance parameters
+---------------
+bin ljets_j5_tge4_low
+observation 454.000000
+---------------
+shapes * * common/ttH_hbb_13TeV_sl.root $PROCESS_finaldiscr_$CHANNEL $PROCESS_finaldiscr_$CHANNEL_$SYSTEMATIC
+shapes ttH_hbb * common/ttH_hbb_13TeV_sl.root ttH_hbb_finaldiscr_$CHANNEL ttH_hbb_finaldiscr_$CHANNEL_$SYSTEMATIC
+shapes ttH_hcc * common/ttH_hbb_13TeV_sl.root ttH_hcc_finaldiscr_$CHANNEL ttH_hcc_finaldiscr_$CHANNEL_$SYSTEMATIC
+shapes ttH_hww * common/ttH_hbb_13TeV_sl.root ttH_hww_finaldiscr_$CHANNEL ttH_hww_finaldiscr_$CHANNEL_$SYSTEMATIC
+shapes ttH_hzz * common/ttH_hbb_13TeV_sl.root ttH_hzz_finaldiscr_$CHANNEL ttH_hzz_finaldiscr_$CHANNEL_$SYSTEMATIC
+shapes ttH_htt * common/ttH_hbb_13TeV_sl.root ttH_htt_finaldiscr_$CHANNEL ttH_htt_finaldiscr_$CHANNEL_$SYSTEMATIC
+shapes ttH_hgg * common/ttH_hbb_13TeV_sl.root ttH_hgg_finaldiscr_$CHANNEL ttH_hgg_finaldiscr_$CHANNEL_$SYSTEMATIC
+shapes ttH_hgluglu * common/ttH_hbb_13TeV_sl.root ttH_hgluglu_finaldiscr_$CHANNEL ttH_hgluglu_finaldiscr_$CHANNEL_$SYSTEMATIC
+shapes ttH_hzg * common/ttH_hbb_13TeV_sl.root ttH_hzg_finaldiscr_$CHANNEL ttH_hzg_finaldiscr_$CHANNEL_$SYSTEMATIC
+---------------
+bin ljets_j5_tge4_low ljets_j5_tge4_low ljets_j5_tge4_low ljets_j5_tge4_low ljets_j5_tge4_low ljets_j5_tge4_low ljets_j5_tge4_low ljets_j5_tge4_low ljets_j5_tge4_low ljets_j5_tge4_low ljets_j5_tge4_low ljets_j5_tge4_low ljets_j5_tge4_low ljets_j5_tge4_low ljets_j5_tge4_low ljets_j5_tge4_low ljets_j5_tge4_low ljets_j5_tge4_low
+process  ttH_hbb ttH_hcc ttH_hww ttH_hzz ttH_htt ttH_hgluglu ttH_hzg ttbarOther ttbarPlusB ttbarPlus2B ttbarPlusBBbar ttbarPlusCCbar singlet wjets zjets ttbarW ttbarZ diboson
+process 0 -1 -2 -3 -4 -5 -6 1 2 3 4 5 6 7 8 9 10 11
+rate -1 -1 -1 -1 -1 -1 -1 90.2377 57.3283 25.028 90.0691 101.403 24.2751 5.00694 1.12302 0.688533 3.40799 0.0
+---------------
+lumi_13TeV lnN 1.062 1.062 1.062 1.062 1.062 1.062 1.062 1.062 1.062 1.062 1.062 1.062 1.062 1.062 1.062 1.062 1.062 1.062
+QCDscale_ttH lnN 0.908/1.058 0.908/1.058 0.908/1.058 0.908/1.058 0.908/1.058 0.908/1.058 0.908/1.058 - - - - - - - - - - -
+QCDscale_ttbar lnN - - - - - - - 0.96/1.02 0.96/1.02 0.96/1.02 0.96/1.02 0.96/1.02 - - - 0.88/1.13 0.88/1.10 -
+QCDscale_singlet lnN - - - - - - - - - - - - 0.98/1.03 - - - - -
+pdf_gg_ttH lnN 1.036 1.036 1.036 1.036 1.036 1.036 1.036 - - - - - - - - - - -
+pdf_gg lnN - - - - - - - 1.04 1.04 1.04 1.04 1.04 - - - - 1.03 -
+pdf_qqbar lnN - - - - - - - - - - - - - 1.04 1.04 1.02 - 1.02
+pdf_qg lnN - - - - - - - - - - - - 1.04 - - - - -
+QCDscale_V lnN - - - - - - - - - - - - - 1.01 1.01 - - -
+QCDscale_VV lnN - - - - - - - - - - - - - - - - - 1.02
+CMS_ttH_Q2scale_ttbarOther shape - - - - - - - 1 - - - - - - - - - -
+CMS_ttH_Q2scale_ttbarPlusB shape - - - - - - - - 1 - - - - - - - - -
+CMS_ttH_Q2scale_ttbarPlus2B shape - - - - - - - - - 1 - - - - - - - -
+CMS_ttH_Q2scale_ttbarPlusBBbar shape - - - - - - - - - - 1 - - - - - - -
+CMS_ttH_Q2scale_ttbarPlusCCbar shape - - - - - - - - - - - 1 - - - - - -
+CMS_ttH_CSVLF shape 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 -
+CMS_ttH_CSVHF shape 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 -
+CMS_ttH_CSVHFStats1 shape 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 -
+CMS_ttH_CSVLFStats1 shape 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 -
+CMS_ttH_CSVHFStats2 shape 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 -
+CMS_ttH_CSVLFStats2 shape 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 -
+CMS_ttH_CSVCErr1 shape 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 -
+CMS_ttH_CSVCErr2 shape 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 -
+CMS_scale_j shape 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 -
+CMS_ttH_QCDscale_ttbarPlusB lnN - - - - - - - - 1.5 - - - - - - - - -
+CMS_ttH_QCDscale_ttbarPlus2B lnN - - - - - - - - - 1.5 - - - - - - - -
+CMS_ttH_QCDscale_ttbarPlusBBbar lnN - - - - - - - - - - 1.5 - - - - - - -
+CMS_ttH_QCDscale_ttbarPlusCCbar lnN - - - - - - - - - - - 1.5 - - - - - -
+CMS_ttH_PU shape 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 -
+CMS_res_j shape 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 -
+CMS_ttH_eff_mu shape 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 -
+CMS_ttH_eff_el shape 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 -
+CMS_ttH_ljets_Trig_mu shape 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 -
+CMS_ttH_ljets_Trig_el shape 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 -
+CMS_ttH_PSscale_ttbarOther lnN - - - - - - - 0.79/1.14 - - - - - - - - - -
+CMS_ttH_PSscale_ttbarPlusB lnN - - - - - - - - 1.06/0.94 - - - - - - - - -
+CMS_ttH_PSscale_ttbarPlus2B lnN - - - - - - - - - 1.14/0.92 - - - - - - - -
+CMS_ttH_PSscale_ttbarPlusBBbar lnN - - - - - - - - - - 1.20/0.85 - - - - - - -
+CMS_ttH_PSscale_ttbarPlusCCbar lnN - - - - - - - - - - - 1.15/0.89 - - - - - -
+CMS_ttH_ttbarPlusCCbar_ljets_j5_tge4_low_13TeV_BDTbin1 shape - - - - - - - - - - - 1 - - - - - -
+CMS_ttH_ttbarPlusCCbar_ljets_j5_tge4_low_13TeV_BDTbin2 shape - - - - - - - - - - - 1 - - - - - -
+CMS_ttH_ttbarPlusB_ljets_j5_tge4_low_13TeV_BDTbin1 shape - - - - - - - - 1 - - - - - - - - -
+CMS_ttH_ttbarPlusB_ljets_j5_tge4_low_13TeV_BDTbin2 shape - - - - - - - - 1 - - - - - - - - -
+CMS_ttH_singlet_ljets_j5_tge4_low_13TeV_BDTbin1 shape - - - - - - - - - - - - 1 - - - - -
+CMS_ttH_singlet_ljets_j5_tge4_low_13TeV_BDTbin2 shape - - - - - - - - - - - - 1 - - - - -
+CMS_ttH_ttbarPlusBBbar_ljets_j5_tge4_low_13TeV_BDTbin1 shape - - - - - - - - - - 1 - - - - - - -
+CMS_ttH_ttbarPlusBBbar_ljets_j5_tge4_low_13TeV_BDTbin2 shape - - - - - - - - - - 1 - - - - - - -
+CMS_ttH_ttbarOther_ljets_j5_tge4_low_13TeV_BDTbin1 shape - - - - - - - 1 - - - - - - - - - -
+CMS_ttH_ttbarOther_ljets_j5_tge4_low_13TeV_BDTbin2 shape - - - - - - - 1 - - - - - - - - - -
+---------------
