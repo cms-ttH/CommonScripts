@@ -11,7 +11,7 @@ Please commit what you have first and then we will do some clean-up
 
 4. check BDT input/output using post-fit (scripts from Gregor?)
 
-5. the whole unblinding procedure(the steps and commands, I can do it based on Matthias’ slides)
+5. the whole unblinding procedure(the steps and commands, Robin will do it based on Matthias’ slides)
 
 6. fit stability studies(all 5 of them, scripts/commands, Karim, Gerrit, Jasone?)
 
@@ -19,6 +19,6 @@ Please commit what you have first and then we will do some clean-up
 
 8. scripts to make the both the pre-fit and post-fit final discriminant plots using the input root file or the root file coming out of maximum likelihood fit
 
-9, converge on naming patterns for the data card
+9. converge on naming patterns for the data card
 
 10. data card making script
