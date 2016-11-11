@@ -1,5 +1,5 @@
 datacards=$1
-#cate=(3j3t ge4j3t_low ge4j3t_high ge4jge4t_low ge4jge4t_high merged)
+#cate=(dl_3j3t dl_ge4j3t_low dl_ge4j3t_high dl_ge4jge4t_low dl_ge4jge4t_high dl_merged)
 #cate=(sl_merged dl_merged)
 cate=(sl_dl_merged)
 
