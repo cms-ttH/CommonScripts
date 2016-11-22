@@ -11,7 +11,7 @@ Please commit what you have first and then we will do some clean-up
 
 3. scripts to produce plot/table for final limit and best fit value for mu
 
-4. check BDT input/output using post-fit (scripts from Gregor?)
+4. check BDT input/output using post-fit (added in `PostFit`)
 
 5. the whole unblinding procedure(the steps and commands, Robin will do it based on Matthias’ slides)
 
