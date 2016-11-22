@@ -13,7 +13,9 @@ additional scripts for pretty plotting.
 
 Steps:
 1. Create config file for `MakePostFitPlotsFWlite.cc`
+
 2. Run `MakePostFitPlotsFWlite.cc`
+
 3. Make plots (`plots.py`)
 
 The script `makeMultiPostfit.py` takes care of all the steps in one go.
