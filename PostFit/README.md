@@ -12,6 +12,7 @@ additional scripts for pretty plotting.
 # Usage
 
 Steps:
+
 1. Create config file for `MakePostFitPlotsFWlite.cc`
 
 2. Run `MakePostFitPlotsFWlite.cc`
